@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: mybluemix.net
+  name: janefungnodejs-april19
+  host: janefungnodejs-april19
+  disk_quota: 1024M
+  services:
+  - availability-monitoring-auto
+  - Auto-Scaling-ly
